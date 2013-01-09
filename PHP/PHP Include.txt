@@ -1,0 +1,3 @@
+<?php require_once('html/header.html'); ?>
+
+where html is folder name

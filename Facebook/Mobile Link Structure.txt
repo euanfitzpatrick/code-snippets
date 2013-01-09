@@ -1,0 +1,3 @@
+Facebook won't allow standard links through their mobile app so you have to use this link structure to stop the redirect.
+
+https://www.facebook.com/iquatics?sk=app_283800175065391&ref=ts
