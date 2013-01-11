@@ -1,7 +1,7 @@
 <?php 
 require_once('dbCon.php');
 
-$adminemail = 'admin@footballcoachdevelopment.com';
+$adminemail = '<email-address-here>';
 $headers_admin = 'MIME-Version: 1.0' . "\r\n";
 $headers_admin .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 ini_set('display_errors', E_ALL);
@@ -9,7 +9,7 @@ ini_set('display_errors', E_ALL);
 $return = '/add-session';
 
 // Additional headers
-$headers_admin .= 'From: Best of British Beer <info@bestofbritishbeer.co.uk>' . "\r\n";
+$headers_admin .= 'From: <your-message>' . "\r\n";
 
 // check logged in
 session_start();
